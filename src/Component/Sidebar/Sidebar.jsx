@@ -3,6 +3,8 @@ import {
   faChalkboardTeacher,
   faDashboard,
   faHistory,
+  faHome,
+  faHouse,
   faRemove,
   faStethoscope,
   faUniversity,
@@ -13,7 +15,7 @@ import { IconContext } from "react-icons";
 import { Link, useNavigate } from "react-router-dom";
 import * as AiIcons from "react-icons/ai";
 import * as FaIcons from "react-icons/fa";
-import "./Navbar.css";
+import "./Sidebar.css";
 import { useDispatch } from "react-redux";
 
 const Navbar = () => {
@@ -23,8 +25,8 @@ const Navbar = () => {
   const dispatch = useDispatch()
   const navigate = useNavigate()
 
-  const goToDashboard = () => {
-    navigate("/Dashboard")
+  const goToHome = () => {
+    navigate("/Home")
   }
   const goToKedokteran = () => {
     navigate("/Kedokteran")
@@ -57,9 +59,9 @@ const Navbar = () => {
                 <h3 className="title-sidebar">Matrix Indonesia</h3>
               </div>
             </li>
-            <div className="parent-isi1" onClick={() => goToDashboard()}>
+            <div className="parent-isi1" onClick={() => goToHome()}>
               <h4 className="isi-sidebar">
-                <FontAwesomeIcon icon={faDashboard} /> Dashboard
+                <FontAwesomeIcon icon={faHouse} /> Home
               </h4>
             </div>
 

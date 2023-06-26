@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent-title-nav {
+    display: flex;
+    justify-content: end;
+    margin-left: 1500px;
+}
+.title-navbar-home {
+    color: white;
+}
+.parent-isi1-active {
+  background: rgb(241, 241, 241);
+  margin-right: 20px;
+  border-radius: 0 10px 10px 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.box-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: rgb(0, 149, 218);
+}
+.navbar-home {
+  background-color: rgb(0, 149, 218);
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.img-home {
+  width: 50%;
+}
+.content-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* BOX DETAIL */
+.parent-detail {
+  display: flex;
+  justify-content: center;
+}
+.box-detail {
+  /* position: relative; */
+  top: 64%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 100%;
+  height: 250px;
+  background: white;
+  border-radius: 20px;
+  margin-top: 30px;
+  /* border-bottom: 10px solid rgb(0, 149, 218); */
+}
+  
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-left: 10px;
+}
+.desk-icon {
+  margin-left: 10px;
+}
+
+/* TITLE HOME */
+.title-home {
+  color: white;
+  font-size: 35px;
+}
+.desk-home {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* SELURUH PROGRAM */
+.title-program-edu {
+  text-align: center;
+  color: rgb(0, 149, 218);
+  margin-bottom: 20px;
+}
+.seluruh-program {
+  margin-top: 250px;
+  text-align: center;
+  background: rgb(243, 251, 255);
+  padding-top: 30px;
+}
+.desk-all-program {
+  margin-bottom: 20px;
+  font-size: 19px;
+  color: rgb(80, 80, 80);
+}
+
+/* KEUNGGULAN EDU */
+.parent-keunggulan {
+  text-align: center;
+  margin-top: 10px;
+}
+.keunggulan-edu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-keunggulan {
+  width: 20%;
+}
+.pengajar-muda {
+  border-right: 1px solid rgb(212, 212, 212);
+}
+.metode {
+  border-left: 1px solid rgb(212, 212, 212);
+}
+.bahan-ajar {
+  border-left: 1px solid rgb(212, 212, 212);
+}
+.tingkat-kelulusan {
+  border-left: 1px solid rgb(212, 212, 212);
+}
+
+/* BTN DAFTAR */
+.btn-daftar-viawa {
+  background: rgb(15, 168, 15);
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  width: 30%;
+  font-family: "Varela Round", sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.btn-daftar-viahp {
+  background: orangered;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  width: 30%;
+  font-family: "Varela Round", sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  border: 1px solid white;
+}
+.icon-wa {
+  font-size: 20px;
+}
+.icon-hp {
+  font-size: 20px;
+}
+
+/* JADWAL KEGIATAN */
+.box-jadwal {
+    display: flex;
+    margin-top: 250px;
+    text-align: center;
+    padding: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.title-jadwal {
+    color: rgb(0, 149, 218);
+}
+.desk-jadwal {
+    font-size: 19px;
+    margin-top: 20px;
+    color: rgb(80, 80, 80);
+    text-align: justify;
+}
+
+/* BTN-ANIMATION*/
+.btn-sidebar {
+    margin-left: 35px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    background: orangered;
+    padding: 10px;
+    width: 70%;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+
+.copyright {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgb(80, 80, 80);
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+  .content-home {
+    display: grid;
+  }
+  .box-detail {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .desk-icon {
+    margin-right: 20px;
+  }
+  .img-home {
+    width: 100%;
+  }
+  .parent-btn {
+    text-align: center;
+  }
+  .btn-daftar-viawa {
+    width: 48%;
+  }
+  .btn-daftar-viahp {
+    width: 48%;
+  }
+  .keunggulan-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seluruh-program {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .h4-tingkat-kelulusan {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .h4-metode {
+    width: 63%;
+  }
+  .img-keunggulan {
+    width: 50%;
+  }
+  .box-jadwal {
+    display: grid;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .box-detail {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .icon {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .icon-detail {
+    display: grid;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .desk-icon {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .content-home {
+    padding: 15px;
+  }
+  .btn-daftar-viahp {
+    margin-left: 0;
+    width: 100%;
+  }
+  .btn-daftar-viawa {
+    width: 100%;
+  }
+
+  .box-detail {
+    display: grid;
+  }
+  .icon {
+    display: grid;
+    place-items: center;
+    margin-left: 0;
+  }
+  .icon-detail {
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+    width: 40%;
+  }
+  .desk-icon {
+    text-align: center;
+  }
+  .box-detail {
+    height: auto;
+  }
+  .keunggulan-edu {
+    flex-wrap: wrap;
+  }
+  .pengajar-muda {
+    border-bottom: 1px solid rgb(212, 212, 212);
+    border-left:  none;
+    border-right: none;
+    width: 90%;
+  }
+  .h4-metode {
+    border-bottom: 1px solid rgb(212, 212, 212);
+    width: 90%;
+  }
+  .bahan-ajar {
+    border-bottom: 1px solid rgb(212, 212, 212);
+    width: 90%;
+  }
+  .tingkat-kelulusan {
+    border-bottom: 1px solid rgb(212, 212, 212);
+    width: 90%;
+  }
+  .metode {
+    border-left:  none;
+  }
+  .bahan-ajar {
+    border-left: none;
+  }
+  .tingkat-kelulusan {
+    border-left: none;
+  }
+  .h4-tingkat-kelulusan {
+    border-right: none;
+    margin-left: 20px;
+  }
+  .desk-home {
+    text-align: justify;
+  }
+  .box-jadwal {
+    width: 100%;
+    padding: 0;
+  }
+  .img-jadwal {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .desk-jadwal {
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

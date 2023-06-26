@@ -6,11 +6,11 @@ import reportWebVitals from "./reportWebVitals";
 import { Router, RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./App/store";
-import Dashboard from "./Page/Dashboard";
-import Kedokteran from "./Page/Kedokteran";
-import MasukPtn from "./Page/MasukPtn";
-import Teacher from "./Page/Teacher";
-import Alumni from "./Page/Alumni";
+import Home from "./Page/Home/Home";
+import Kedokteran from "./Page/Kedokteran/Kedokteran";
+import MasukPtn from "./Page/Ptn/MasukPtn";
+import Teacher from "./Page/Teacher/Teacher";
+import Alumni from "./Page/Alumni/Alumni";
 
 const router = createBrowserRouter([
   {
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: "Dashboard",
-    element: <Dashboard />
+    path: "Home",
+    element: <Home />
   },
   {
     path: "Kedokteran",

@@ -1,9 +1,10 @@
 import "./App.css";
 import { Route, Router, Routes } from "react-router-dom";
-import Navbar from "./Component/Navbar";
+import Sidebar from "./Component/Sidebar/Sidebar";
+import Home from "./Page/Home/Home";
 
 function App() {
-  return <Navbar />;
+  return <Home />;
 }
 
 export default App;

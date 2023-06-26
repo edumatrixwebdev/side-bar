@@ -1,0 +1,10 @@
+.parent-isi4-active {
+    background: rgb(241, 241, 241);
+    margin-right: 20px;
+    border-radius: 0 10px 10px 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 100ms;
+}
