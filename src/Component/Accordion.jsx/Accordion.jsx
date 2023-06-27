@@ -8,7 +8,6 @@ const Accordion = (props) => {
   const [height, setHeight] = useState("0px");
 
   useEffect(() => {
-    // console.log("Height for ", props.title, ": ", height);
   }, [height]);
 
   const toggleAccordion = () => {

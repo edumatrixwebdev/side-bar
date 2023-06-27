@@ -1,9 +1,7 @@
 import {
   faBars,
   faChalkboardTeacher,
-  faDashboard,
   faHistory,
-  faHome,
   faHouse,
   faRemove,
   faStethoscope,
@@ -12,9 +10,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { IconContext } from "react-icons";
-import { Link, useNavigate } from "react-router-dom";
-import * as AiIcons from "react-icons/ai";
-import * as FaIcons from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 import "./Sidebar.css";
 import { useDispatch } from "react-redux";
 

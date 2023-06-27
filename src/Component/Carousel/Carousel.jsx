@@ -12,7 +12,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowLeft,
   faArrowRight,
-  faArrowTurnRight,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Carousel() {

@@ -4,8 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { IconContext } from "react-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowLeft,
-  faArrowRight,
   faBars,
   faChalkboardTeacher,
   faHistory,
