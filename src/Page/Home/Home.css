@@ -3,12 +3,12 @@
   padding: 0;
 }
 .parent-title-nav {
-    display: flex;
-    justify-content: end;
-    margin-left: 1500px;
+  display: flex;
+  justify-content: end;
+  margin-left: 1500px;
 }
 .title-navbar-home {
-    color: white;
+  color: white;
 }
 .parent-isi1-active {
   background: rgb(241, 241, 241);
@@ -67,7 +67,7 @@
   margin-top: 30px;
   /* border-bottom: 10px solid rgb(0, 149, 218); */
 }
-  
+
 .icon {
   display: flex;
   justify-content: center;
@@ -153,6 +153,10 @@
   border-radius: 10px;
   cursor: pointer;
   border: 1px solid white;
+  transition: 300ms;
+}
+.btn-daftar-viawa:hover {
+  border-radius: 30px;
 }
 .btn-daftar-viahp {
   background: orangered;
@@ -168,6 +172,10 @@
   cursor: pointer;
   margin-left: 20px;
   border: 1px solid white;
+  transition: 300ms;
+}
+.btn-daftar-viahp:hover {
+  border-radius: 30px;
 }
 .icon-wa {
   font-size: 20px;
@@ -178,44 +186,164 @@
 
 /* JADWAL KEGIATAN */
 .box-jadwal {
-    display: flex;
-    margin-top: 250px;
-    text-align: center;
-    padding: 100px;
-    padding-top: 0;
-    padding-bottom: 0;
+  display: flex;
+  margin-top: 250px;
+  text-align: center;
+  padding: 100px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .title-jadwal {
-    color: rgb(0, 149, 218);
+  color: rgb(0, 149, 218);
 }
 .desk-jadwal {
-    font-size: 19px;
-    margin-top: 20px;
-    color: rgb(80, 80, 80);
-    text-align: justify;
+  font-size: 19px;
+  margin-top: 20px;
+  color: rgb(80, 80, 80);
+  text-align: justify;
 }
 
 /* BTN-ANIMATION*/
 .btn-sidebar {
-    margin-left: 35px;
-    cursor: pointer;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    color: rgb(255, 255, 255);
-    background: orangered;
-    padding: 10px;
-    width: 70%;
-    border: none;
-    font-family: 'Varela Round', sans-serif;
-    border-radius: 50px;
-    font-size: 16px;
-  }
+  margin-left: 35px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: rgb(255, 255, 255);
+  background: orangered;
+  padding: 10px;
+  width: 70%;
+  border: none;
+  font-family: "Varela Round", sans-serif;
+  border-radius: 50px;
+  font-size: 16px;
+}
 
 .copyright {
-    text-align: center;
-    font-size: 11px;
-    font-weight: 600;
-    color: rgb(80, 80, 80);
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgb(80, 80, 80);
+}
+
+/* DAFTAR END */
+.daftar-end {
+  background: rgb(243, 251, 255);
+  padding: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 250px;
+}
+.title-daftar-end {
+  font-size: 30px;
+}
+.desk-daftar-end {
+  font-size: 20px;
+}
+.btn-wa-end {
+  background: rgb(15, 168, 15);
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Varela Round", sans-serif;
+  cursor: pointer;
+}
+.btn-hp-end {
+  background: orangered;
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-left: 10px;
+  font-family: "Varela Round", sans-serif;
+  cursor: pointer;
+}
+.group-btn-daftarend {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* ALL ACCORDION */
+.all-accordion {
+  margin-top: 250px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background: rgb(243, 251, 255);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.title-accordion {
+  margin-bottom: 25px;
+  color: rgb(0, 149, 218);
+}
+
+/* FLOAT CALL */
+.box-wa {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: rgb(0, 149, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-left: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  z-index: 99;
+}
+.wa {
+  color: white;
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+.btn-wa {
+  background: rgb(15, 168, 15);
+  border: none;
+  padding: 20px;
+  border-radius: 50px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.call {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 700;
+}
+.btn-call {
+  background: orangered;
+  border: none;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 50px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+/* LOGO UNIV */
+.parent-univ {
+  text-align: center;
+  margin-top: 250px;
+}
+
+/* PROMO */
+.parent-promo {
+  text-align: center;
+  margin-top: 250px;
+}
+.title-promo {
+  margin-bottom: 20px;
+  color: rgb(0, 149, 218);
 }
 
 /* RESPONSIVE */
@@ -266,9 +394,28 @@
   .box-jadwal {
     display: grid;
   }
+  .img-univ {
+    width: 100%;
+  }
+  .daftar-end {
+    text-align: center;
+  }
+  .img-promo {
+    width: 100%;
+  }
+  .parent-promo {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
+  .title-home {
+    font-size: 25px;
+  }
+  .desk-home {
+    font-size: 17px;
+  }
   .box-detail {
     display: grid;
     justify-content: center;
@@ -328,7 +475,7 @@
   }
   .pengajar-muda {
     border-bottom: 1px solid rgb(212, 212, 212);
-    border-left:  none;
+    border-left: none;
     border-right: none;
     width: 90%;
   }
@@ -345,7 +492,7 @@
     width: 90%;
   }
   .metode {
-    border-left:  none;
+    border-left: none;
   }
   .bahan-ajar {
     border-left: none;
@@ -372,5 +519,22 @@
     padding: 25px;
     padding-top: 0;
     padding-bottom: 0;
+  }
+  .all-accordion {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .title-accordion {
+    font-size: 23px;
+  }
+  .img-keunggulan {
+    width: 30%;
+  }
+  .btn-hp-end {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .daftar-end {
+    padding: 15px;
   }
 }

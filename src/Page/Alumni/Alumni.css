@@ -8,3 +8,198 @@
   cursor: pointer;
   transition: 100ms;
 }
+
+.box-alumni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: rgb(0, 149, 218);
+}
+.title-alumni {
+  color: white;
+  font-size: 35px;
+}
+.desk-alumni {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.content-alumni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.img-alumni {
+  width: 50%;
+}
+
+/* SUCCESS STORY */
+.title-story {
+  color: rgb(0, 149, 218);
+}
+.success-story {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.li-story {
+  list-style: none;
+  color: rgb(82, 82, 82);
+  line-height: 25px;
+  font-size: 18px;
+}
+.list-story {
+  column-count: 3;
+}
+.title-story {
+  margin-left: 50px;
+  text-decoration: underline;
+}
+.desk-story {
+  margin-left: 50px;
+  color: rgb(82, 82, 82);
+}
+.icon-story {
+  color: rgb(0, 149, 218);
+}
+
+/* IMG ALUMNI */
+.parent-img-alumni {
+  margin-top: 250px;
+  text-align: center;
+}
+.title-alumni-story {
+  color: rgb(0, 149, 218);
+}
+.desk-alumni-story {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slide-alumni  {
+  text-align: center;
+  margin-top: 250px;
+}
+
+
+/* FLOAT CALL */
+.box-wa {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: rgb(0, 149, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-left: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  z-index: 99;
+}
+.wa {
+  color: white;
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+.btn-wa {
+  background: rgb(15, 168, 15);
+  border: none;
+  padding: 20px;
+  border-radius: 50px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.call {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 700;
+}
+.btn-call {
+  background: orangered;
+  border: none;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 50px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+/* RUN TEXT */
+.run-text {
+  padding: 20px;
+  color: rgb(82, 82, 82);
+}
+
+/* UNIV ALUMNI */
+.univ-alumni {
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+  .inti-img-alumni {
+    width: 100%;
+  }
+  .content-alumni {
+    display: grid;
+  }
+  .parent-img-alumni {
+    padding: 20px;
+  }
+  .list-story {
+    column-count: 2;
+  }
+  .success-story {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-story {
+    margin-left: 0;
+    text-align: center;
+  }
+  .desk-story {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .img-alumni {
+    width: 100%;
+  }
+  .img-inti-univ {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .content-alumni {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .btn-hp-end {
+    margin-left: 0;
+  }
+  .list-story {
+    column-count: 1;
+  }
+  .desk-story {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .img-alumni {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .img-inti-univ {
+    width: 100%;
+  }
+}

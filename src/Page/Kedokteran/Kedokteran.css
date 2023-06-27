@@ -8,3 +8,406 @@
   cursor: pointer;
   transition: 100ms;
 }
+.box-dokter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: rgb(0, 149, 218);
+}
+.img-dokter {
+  width: 45%;
+}
+.title-dokter {
+  color: white;
+  font-size: 35px;
+}
+.desk-dokter {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.content-dokter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* CARD PRIORITI */
+.parent-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.card-prioriti {
+  width: 70%;
+  height: auto;
+  border: 3px solid rgb(0, 149, 218);
+  border-radius: 18px;
+}
+.icon-list-dokter {
+  color: rgb(0, 149, 218);
+  font-size: 20px;
+}
+.list-dokter {
+  list-style: none;
+  line-height: 30px;
+}
+.list-prioriti {
+  padding: 20px;
+  column-count: 2;
+}
+.header-prioriti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background: rgb(0, 149, 218);
+  color: white;
+  border-radius: 14px 14px 0 0;
+}
+.btn-paket-prioriti {
+  width: 100%;
+  background: orangered;
+  border: 2px solid transparent;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 17px;
+  border-radius: 10px;
+  font-family: 'Varela Round', sans-serif;
+  transition: 200ms;
+  cursor: pointer;
+}
+.btn-paket-prioriti:hover {
+  background: white;
+  color: orangered;
+  border: 2px solid orangered;
+}
+.parent-btn-prio {
+  padding: 20px;
+  padding-top: 0;
+}
+.a-pilih-paket {
+  text-decoration: none;
+}
+
+
+/* BTN ANIMATION */
+.btn-pilih-paket {
+  position: relative;
+  width: 100%;
+  height: auto;
+  color: #000000;
+  background: transparent;
+  overflow: hidden;
+  /* border-top: 2px solid rgb(0, 149, 218);
+  border-right: 2px solid rgb(0, 149, 218);
+  border-bottom: 2px solid rgb(218, 69, 0);
+  border-left: 2px solid rgb(218, 69, 0); */
+  font-family: 'Varela Round';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  /* border-radius: 10px; */
+  cursor: pointer;
+  border: none;
+}
+
+.top, .right, .bottom, .left {
+  position: absolute;
+  border-radius: 100vmax;
+}
+
+.top {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    transparent 50%,
+    rgb(0, 149, 218),
+    rgb(0, 165, 241)
+  );
+}
+
+.bottom {
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    rgb(226, 83, 0),
+    rgb(204, 75, 0),
+    transparent 50%
+  );
+}
+
+.right {
+  top: 0;
+  right: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 30%,
+    rgb(0, 149, 218),
+    rgb(0, 165, 241)
+  );
+}
+
+.left {
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    rgb(226, 83, 0),
+    rgb(204, 75, 0),
+    transparent 70%
+  );
+}
+
+.top {
+  animation: animateTop 2.3s ease-in-out infinite;
+}
+
+.bottom {
+  animation: animateBottom 2.3s ease-in-out infinite;
+}
+
+.right {
+  animation: animateRight 2.3s ease-in-out infinite;
+}
+
+.left {
+  animation: animateLeft 2.3s ease-in-out infinite;
+}
+
+@keyframes animateTop {
+  25% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  30%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateBottom {
+  0%,
+  50% {
+    opacity: 0;
+    width: 0;
+  }
+
+  75% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  76%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateRight {
+  0%,
+  25% {
+    opacity: 0;
+    height: 0;
+  }
+
+  50% {
+    opacity: 1;
+    height: 100%;
+  }
+
+  55%,
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes animateLeft {
+  0%,
+  75% {
+    opacity: 0;
+    bottom: 0;
+    height: 0;
+  }
+
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
+}
+
+
+/* SLIDE */
+.parent-slide {
+  margin-top: 250px;
+}
+
+* FLOAT CALL */
+.box-wa {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: rgb(0, 149, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-left: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  z-index: 99;
+}
+.wa {
+  color: white;
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+.btn-wa {
+  background: rgb(15, 168, 15);
+  border: none;
+  padding: 20px;
+  border-radius: 50px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.call {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 700;
+}
+.btn-call {
+  background: orangered;
+  border: none;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 50px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+/* DAFTAR END */
+.daftar-end {
+  background: rgb(243, 251, 255);
+  padding: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 250px;
+}
+.title-daftar-end {
+  font-size: 30px;
+}
+.desk-daftar-end {
+  font-size: 20px;
+}
+.btn-wa-end {
+  background: rgb(15, 168, 15);
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Varela Round", sans-serif;
+  cursor: pointer;
+}
+.btn-hp-end {
+  background: orangered;
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-left: 10px;
+  font-family: "Varela Round", sans-serif;
+  cursor: pointer;
+}
+.group-btn-daftarend {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* UNIV DOKTER */
+.univ-dokter {
+  text-align: center;
+  margin-top: 250px;
+}
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+  .content-dokter {
+    display: grid;
+  }
+  .img-dokter {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .img-univ-dokter {
+    width: 100%;
+  }
+  .parent-card {
+    padding: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .card-prioriti {
+    width: 100%;
+  }
+  .list-dokter {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .list-prioriti {
+    column-count: 1;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .content-dokter {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .img-dokter {
+    margin-top: 40px;
+  }
+  .list-dokter {
+    display: flex;
+    align-items: baseline;
+  }
+  .icon-list-dokter {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 10px;
+  }
+  .title-prioriti {
+    font-size: 20px;
+    text-align: center;
+  }
+}
