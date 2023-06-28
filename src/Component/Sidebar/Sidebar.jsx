@@ -14,7 +14,7 @@ import { useNavigate } from "react-router-dom";
 import "./Sidebar.css";
 import { useDispatch } from "react-redux";
 
-const Navbar = () => {
+const Sidebar = () => {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
 
@@ -91,4 +91,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Sidebar;

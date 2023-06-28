@@ -17,7 +17,7 @@ import "./Home.css";
 import Carousel from "../../Component/Carousel/Carousel";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import Footer from "../../Component/Footer/Footer";
-import Accordion from "../../Component/Accordion.jsx/Accordion";
+import Accordion from "../../Component/Accordion/Accordion";
 
 const Home = () => {
   const [sidebar, setSidebar] = useState(false);
