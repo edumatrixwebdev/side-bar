@@ -106,17 +106,12 @@
   color: #000000;
   background: transparent;
   overflow: hidden;
-  /* border-top: 2px solid rgb(0, 149, 218);
-  border-right: 2px solid rgb(0, 149, 218);
-  border-bottom: 2px solid rgb(218, 69, 0);
-  border-left: 2px solid rgb(218, 69, 0); */
   font-family: 'Varela Round';
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   padding: 15px;
-  /* border-radius: 10px; */
   cursor: pointer;
   border: none;
 }
